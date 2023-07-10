@@ -771,7 +771,7 @@ of height */
         left: -100%;
         width: 100%;
         height: 100%;
-        background: yellowgreen;
+        background: var(--bg-color);
         border-top: .1rem solid rgba(0,0,0,.2);
         z-index: -1;
         transition: .25s ease;
@@ -786,7 +786,14 @@ of height */
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
-         
+        transform: translateX(-20rem);
+        transition: .25s ease;
+         transition-delay: 0s;
+    }
+
+    .navbar.active a{
+        transform: translateX(0);
+        transition-delay: .25s;
     }
 
 }
