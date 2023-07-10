@@ -34,7 +34,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 105%;
     padding: 2rem 9%;
     background: transparent;
     display: flex;
@@ -60,7 +60,7 @@ body{
     font-size: 1.7rem;
     color: var(--text-color);
     font-weight: 500;
-    margin-left: 3.5rem;
+    margin-left: 3.6rem;
     transition: .3s;
 }
 
@@ -205,7 +205,7 @@ this is made into transparent again then data will not be visible so again color
     position:absolute;
     left: 6%;
     bottom: 4rem;
-    width: 170px;
+    width: 200px;
     display: flex;
     justify-content: space-between;
     /* padding-left: 5%; */
